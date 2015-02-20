@@ -1,9 +1,0 @@
-select top 5 * from DecisionTemplate order by DecisionTemplateID desc
-select top 5 * from ObjectAccess order by ObjectAccessID desc
-select top 5 * from systemmember order by SystemMemberID desc
-delete from ImportForm where ImportForm = 'TestingSystemRoles'
-select top 5 * from ImportForm order by ImportFormID desc
-delete from ImportFormTemplate where ImportFormTemplate = 'TestingSystemRoles'
-select top 5 * from ImportFormTemplate order by ImportFormTemplateID desc
-delete from SystemRole where SystemRole = 'TestingSystemRolePositive'
-select top 5 * from SystemRole order by SystemRoleID desc
